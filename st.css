@@ -1,6 +1,6 @@
 .header{
     border-radius: 25px;
-position: relative;
+    position: absolute;
 top:1px;
 left: 5px;
 right: 5px;
@@ -9,21 +9,47 @@ background-color: white;
 
 
 
+
 }
+a{
+  text-decoration: none;
+    color: inherit;
+}
+/*ul{
+  list-style-type: none;
+  padding: 15px;
+  width: 50%;
+}*/
 
-.logo{
+.logo  {
+ 
 
-position: absolute;
-border-radius: 0px;
-top : 2px;
-
-
-bottom: 2px;
+position: relative;
+border-radius: 1px;
+margin-bottom: 0cm;
+height: 2cm;
+top : -2cm;
+bottom: 4px;
 left: 6cm;
-width: 5cm;
-background-color: antiquewhite;
+width: 50%;
+background-color: rgb(202, 67, 67);
 text-align: center;
 
+
+
+}
+.elements{
+
+margin-bottom : 10cm;
+padding: 10 10;
+
+}
+.logo img{
+
+ border-radius: 25px; 
+ display: inline-block;
+
+  
 
 }
 
@@ -35,9 +61,12 @@ text-align: center;
 
 .menu-bar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin-right: 70px;
+   
+    
+    overflow-wrap: hidden;
+    width: 50%;
+    display: flex;
   }
   
   .menu-bar li {
@@ -59,6 +88,8 @@ text-align: center;
    top: 100%;
    
    
+   
+ 
 
 
 }
@@ -67,10 +98,13 @@ text-align: center;
     margin: 3cm;
     margin-left: auto;
     margin-right:auto;
-    padding: 0;
-    overflow: hidden;
+    margin-top: auto;
+    overflow-y: hidden;
     position: absolute;
     text-align: center;
+    padding-top: 2cm;
+    width: 50%;
+    display: flex;
   }
   
   .second-menu li {
@@ -95,6 +129,7 @@ text-align: center;
 }
 .content{
  margin-top: 6cm;
+ 
 
 }
 
@@ -104,7 +139,7 @@ text-align: center;
     border: 2ch;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
-   
+   background-color: white;
 
 }
 .product2{
@@ -112,6 +147,7 @@ text-align: center;
   border: 2ch;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 25px;
+  background-color: white;
 
 }
 .product3{
@@ -119,6 +155,7 @@ text-align: center;
   border: 2ch;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 25px;
+  background-color: white;
 
 }
 .product4{
@@ -126,6 +163,7 @@ text-align: center;
   border: 2ch;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 25px;
+  background-color: white;
 
 }
 img.roundim1{
@@ -149,4 +187,11 @@ img.roundim4{
 
   
     display: inline-block;
+}
+.parag{
+color: rgb(254, 233, 233);
+
+}
+.title{
+  color: white;
 }
